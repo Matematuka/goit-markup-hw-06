@@ -175,27 +175,27 @@ input {
 }
 
 .header {
-  max-width: 1440px;
+  max-width: 320px;
   margin: 0 auto;
   background-color: #2E2F42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 188px 0;
+  padding: 72px 0;
 }
 
 .header-title {
   color: #FFF;
   text-align: center;
-  font-size: 56px;
+  font-size: 36px;
   font-weight: 700;
-  line-height: 1.07;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   margin: 0 auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
   align-items: center;
-  max-width: 496px;
+max-width: 288px;
 }
 
 .header-order-btn {
@@ -842,6 +842,16 @@ border: none;
     .portfolio-item {
       width: calc((100% - 24px) / 2);
     }
+    .header {
+      max-width: 768px;
+      padding: 112px 0;
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab.jpg);
+    }
+    .header-title {
+      font-size: 56px;
+      max-width: 496px;
+      margin-bottom: 36px;
+        }
     }  
     
 @media screen and (min-width: 1440px) {
@@ -859,8 +869,8 @@ border: none;
       display: flex;
     }
     .advantages-list {   
-     flex-wrap: nowrap;
-     gap: 24px;
+      flex-wrap: nowrap;
+      gap: 24px;
           }
                         
     .advantages-item {
@@ -874,7 +884,7 @@ border: none;
       font-weight: 400;
             }
     .team {
-     max-width: 1440px;
+      max-width: 1440px;
     }
     .team .container {
       max-width: 1158px;
@@ -889,10 +899,22 @@ border: none;
     }
 
     .portfolio-list {
-     column-gap: 24px;
-     row-gap: 48px; 
+      column-gap: 24px;
+      row-gap: 48px; 
           }
     .portfolio-item {
       width: calc((100% - 48px) / 3); 
+    }
+    .header {
+      max-width: 1440px;
+      padding: 188px 0;
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+        }
+    .header-title {
+      font-size: 56px;
+      line-height: 1.07;
+      margin-bottom: 48px;
+      max-width: 496px;
+
     }
   }
