@@ -271,6 +271,13 @@ input {
   background-size: cover;
   padding: 72px 0;
 }
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .header {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob2x.jpg);
+  }
+}
 
 .header-title {
   color: #FFF;
@@ -952,6 +959,13 @@ border: none;
       padding: 112px 0;
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab.jpg);
     }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .header {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab2x.jpg);
+    }
+  }
     .header-title {
       font-size: 56px;
       max-width: 496px;
@@ -1078,6 +1092,13 @@ display: block;
       padding: 188px 0;
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
         }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .header {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg2x.jpg);
+    }
+  }
     .header-title {
       font-size: 56px;
       line-height: 1.07;
