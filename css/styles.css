@@ -3,7 +3,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
-  background: #ffffff margin: 0;
+  background: #ffffff;
+  margin: 0;
 }
 
 ul {
@@ -189,6 +190,11 @@ input {
   visibility: hidden;
   pointer-events: auto;
 } 
+.mob-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
 .menu-open-btn {
   border: none;
   background-color: transparent;
@@ -927,8 +933,10 @@ border: none;
 @media screen and (min-width: 768px)  {
     .container {
       max-width: 768px;
-       
         }
+    .mob-menu {
+      display: none;
+    }
     .advantages-list {
       gap: 72px 24px;
       }
@@ -1055,6 +1063,9 @@ display: block;
       padding-top: 120px;
       padding-bottom: 120px;
                         }
+    .mob-menu {
+      display: none;
+    }
     .advantages-box-icon {
       display: flex;
     }
