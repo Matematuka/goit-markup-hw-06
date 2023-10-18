@@ -364,7 +364,7 @@ background-color: #404BBF;
 
  
  .team {
-  max-width: 320px;
+  /* max-width: 320px; */
   margin: 0 auto;
   background: #F4F4FD;
 }
@@ -584,10 +584,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
-
- 
-  
+  margin-bottom: 16px; 
 }
 .footer-icon-box {
   display: flex;
@@ -891,8 +888,7 @@ border: none;
             font-size: 12px;
             line-height: 1.17;
             letter-spacing: 0.04em;
-            
-          
+            display: inline-flex;
         }
         .checkbox-link {
           color: #4D5AE5;
@@ -947,7 +943,7 @@ border: none;
       text-align: start;
       }
     .team {
-      max-width: 768px;
+      /* max-width: 768px; */
       }
     .team .container {
       max-width: 584px;
@@ -1050,6 +1046,7 @@ display: block;
       width: 408px;
       height: 584px;
     }
+
   }
     
 @media screen and (min-width: 1440px) {
@@ -1085,7 +1082,7 @@ display: block;
       font-weight: 400;
             }
     .team {
-      max-width: 1440px;
+      /* max-width: 1440px; */
     }
     .team .container {
       max-width: 1158px;
